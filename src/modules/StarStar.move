@@ -190,7 +190,6 @@ module StarStar {
 module TokenCategory{
     use 0x9639665933576B9Ed950214db76DF8Eb::StarStar;
 
-    /// The STC to USD price oracle
     struct TokenCategory has copy,store,drop {}
 
     public fun register(signer: &signer){
